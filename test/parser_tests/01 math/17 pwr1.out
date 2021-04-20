@@ -1,0 +1,23 @@
+<ADD
+  <ADD
+    <NEG
+      <PWR
+        <INT 2>
+        <INT 3>
+      >
+    >
+    <PWR
+      <INT 2>
+      <NEG
+        <INT 3>
+      >
+    >
+  >
+  <PWR
+    <INT 2>
+    <PWR
+      <INT 3>
+      <INT 4>
+    >
+  >
+>

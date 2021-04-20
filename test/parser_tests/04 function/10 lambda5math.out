@@ -1,0 +1,19 @@
+<MUL
+  <INT 2>
+  <FUNCALL
+    <LAMBDA
+      <LIST
+        <ID x>
+        <NIL>
+      >
+      <ADD
+        <ID x>
+        <INT 2>
+      >
+    >
+    <LIST
+      <INT 3>
+      <NIL>
+    >
+  >
+>

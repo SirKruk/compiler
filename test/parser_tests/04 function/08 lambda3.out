@@ -1,0 +1,19 @@
+<LAMBDA
+  <LIST
+    <ID x>
+    <LIST
+      <ID y>
+      <LIST
+        <ID z>
+        <NIL>
+      >
+    >
+  >
+  <ADD
+    <ADD
+      <ID x>
+      <ID y>
+    >
+    <ID z>
+  >
+>

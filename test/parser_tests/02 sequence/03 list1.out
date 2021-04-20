@@ -1,0 +1,10 @@
+<LIST
+  <ID x>
+  <LIST
+    <INT 1>
+    <LIST
+      <STRING "a">
+      <NIL>
+    >
+  >
+>

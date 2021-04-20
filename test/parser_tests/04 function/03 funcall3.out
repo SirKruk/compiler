@@ -1,0 +1,13 @@
+<FUNCALL
+  <ID func>
+  <LIST
+    <ASSIGN
+      <ID x>
+      <ADD
+        <ID x>
+        <INT 7>
+      >
+    >
+    <NIL>
+  >
+>

@@ -1,0 +1,16 @@
+<ADD
+  <MUL
+    <INT 2>
+    <PWR
+      <INT 3>
+      <INT 4>
+    >
+  >
+  <MUL
+    <PWR
+      <INT 2>
+      <INT 3>
+    >
+    <INT 4>
+  >
+>

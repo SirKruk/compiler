@@ -1,0 +1,13 @@
+<ASSIGN
+  <ID x>
+  <ADD
+    <DIV
+      <MUL
+        <ID y>
+        <ID z>
+      >
+      <INT 13>
+    >
+    <DOUBLE 14.5>
+  >
+>

@@ -1,0 +1,35 @@
+1. Python script querying input files from a specified directory.
+   Files contain tested input and expected output for each behavior
+    
+        test.py executable directory
+        
+   Behaviors can be divided into subdirectories.
+   E.g.
+        ./test.py lexer lexer_tests
+   where lexer_tests contains subdirectories "token" and "program"
+   testing lexer against single tokens and composite input.
+
+2. Python script managing directories containing named and indexed tests:
+
+        tctl add [name]                --- create test at next free slot
+        tctl add [idx] [name]          --- create at specified slot, shift the rest if necessary
+        tctl del [idx]                 --- delete test
+        tctl ins [src_idx] [dest_idx]  --- insert test from src_idx at new_idx, shift the rest
+        tctl swp [old_idx] [new_idx]   --- swap tests at new_idx and old_idx
+
+   Tests are expected to be in format "\d+\ \w\.{in,out}".
+
+3. Test will be structured in an inductive manner: 
+
+        ALL  atom behaviors will be tested
+        SOME aggregations of atoms will be tested
+
+   Hopefuly correctness of these aggregations will extend by induction
+   to correctness of all possible aggregations
+
+4. What will be tested in each compiler module:
+        lexer --------- reading tokens,
+        parser -------- AST representation of syntax features,
+        analyzer ------ type inference,
+        interpreter --- correctness,
+        codegen ------- no idea yet.

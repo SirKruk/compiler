@@ -1,0 +1,24 @@
+1. "Program" is a data structure that can evaluated to a "Value" using syntax and semantic rules
+
+2. "Value" is a data structure encapsulating: 
+	boolean,
+	int,
+	double,
+	string,
+	list,
+	lambda (function)
+	unit (something)
+
+3. "Program" is an "Expression".
+
+4. "Expression" is either a "Statement", or a "Block"
+
+5. "Block" is a sequence of "Statements" between curly braces and separated by semicolons
+
+6. "Statement" is one of the following: 
+	binary operation, 
+	function call,
+	assignment to a variable, 
+	dereference of a variable,
+	selection (if then else)
+	iteration (while loop)

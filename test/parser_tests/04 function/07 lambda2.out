@@ -1,0 +1,10 @@
+<LAMBDA
+  <LIST
+    <ID x>
+    <NIL>
+  >
+  <MUL
+    <INT 2>
+    <ID x>
+  >
+>

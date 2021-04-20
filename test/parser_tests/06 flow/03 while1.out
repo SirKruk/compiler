@@ -1,0 +1,10 @@
+<SEQ
+  <WHILE
+    <ID p>
+    <SEQ
+      <ID q>
+      <NIL>
+    >
+  >
+  <NIL>
+>

@@ -1,0 +1,33 @@
+1. AST is a binary tree, represented with struct named ast defined in ast.h
+
+2. AST struct fields:
+
+typedef struct {
+  ast_type type        --- node type enum
+  int ref              --- reference counter
+  obj_type *anno       --- object type
+  struct ast *p_left   --- pointer to the left
+  struct ast *p_right  --- pointer to the right branch
+} ast;
+
+3. For more readability and declarativeness of code some AST nodes are using
+   dedicated structs that are designed to be pointer-cast-polymorphic to the
+   ast struct above. Eg. integer node:
+
+typedef struct {
+  ast_type type;
+  int ref;
+  obj_type anno;
+  int value;
+} i_node;
+
+#define CAST_I(p) ((i_node *)p)
+
+  Cost of that: a small memory overhead.
+
+4. Object type struct is a linked list encapsulating type composition
+
+typedef struct obj_type {
+  obj_types type;                  --- object type enum
+  struct obj_type *p_inner_type;   --- link to inside type
+} obj_type;

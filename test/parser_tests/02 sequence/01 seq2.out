@@ -1,0 +1,7 @@
+<SEQ
+  <INT 1>
+  <SEQ
+    <INT 2>
+    <NIL>
+  >
+>

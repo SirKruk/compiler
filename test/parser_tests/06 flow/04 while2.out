@@ -1,0 +1,16 @@
+<WHILE
+  <PRED_MORE
+    <ID x>
+    <INT 2>
+  >
+  <SEQ
+    <ASSIGN
+      <ID x>
+      <SUB
+        <ID x>
+        <INT 1>
+      >
+    >
+    <NIL>
+  >
+>

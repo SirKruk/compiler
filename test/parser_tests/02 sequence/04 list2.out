@@ -1,0 +1,13 @@
+<FUNCALL
+  <LIST
+    <INT 5>
+    <LIST
+      <INT 7>
+      <NIL>
+    >
+  >
+  <LIST
+    <INT 1>
+    <NIL>
+  >
+>

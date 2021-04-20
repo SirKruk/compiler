@@ -1,0 +1,11 @@
+<SUB
+  <DIV
+    <INT 3>
+    <NEG
+      <INT 4>
+    >
+  >
+  <NEG
+    <INT 5>
+  >
+>

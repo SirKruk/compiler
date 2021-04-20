@@ -1,0 +1,16 @@
+<MUL
+  <ADD
+    <INT 2>
+    <INT 3>
+  >
+  <FUNCALL
+    <ID f>
+    <LIST
+      <ADD
+        <INT 4>
+        <INT 5>
+      >
+      <NIL>
+    >
+  >
+>

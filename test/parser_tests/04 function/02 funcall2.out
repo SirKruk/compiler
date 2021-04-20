@@ -1,0 +1,13 @@
+<FUNCALL
+  <ID fun>
+  <LIST
+    <INT 7>
+    <LIST
+      <DOUBLE 3.14>
+      <LIST
+        <STRING "test">
+        <NIL>
+      >
+    >
+  >
+>

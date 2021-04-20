@@ -1,0 +1,13 @@
+<ASSIGN
+  <ID f>
+  <LAMBDA
+    <LIST
+      <ID x>
+      <NIL>
+    >
+    <ADD
+      <ID x>
+      <INT 2>
+    >
+  >
+>

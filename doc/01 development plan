@@ -1,0 +1,20 @@
+1. Break program to functional modules: 
+	lexer,
+	parser,
+	analyzer,
+	interpreter,
+	generator
+
+2. Use TDD for each step. Each module has its own testing executable, used to compare input and output in expected behavior.
+
+3. Do not test implementation details.
+
+4. Generate lexer with flex, parser with bison.
+
+5. Analyzer will annotate program AST with types, check them for correctness, hopefuly produce meaningful error messages.
+
+6. Interpreter will evaluate AST while managing enviroment for defined symbols.
+
+7. Generator will translate program to MIPS assembly.
+
+6. Have fun.

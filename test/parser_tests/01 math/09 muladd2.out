@@ -1,0 +1,7 @@
+<ADD
+  <INT 2>
+  <MUL
+    <INT 3>
+    <INT 4>
+  >
+>

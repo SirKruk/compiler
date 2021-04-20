@@ -1,0 +1,22 @@
+<ASSIGN
+  <ID y>
+  <PRED_EQ
+    <ADD
+      <ADD
+        <STRING "test">
+        <INT 2>
+      >
+      <INT 3>
+    >
+    <MUL
+      <FUNCALL
+        <ID f>
+        <LIST
+          <ID x>
+          <NIL>
+        >
+      >
+      <INT 4>
+    >
+  >
+>

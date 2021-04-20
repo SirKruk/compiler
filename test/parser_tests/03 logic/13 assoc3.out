@@ -1,0 +1,7 @@
+<PRED_OR
+  <ID a>
+  <PRED_AND
+    <ID b>
+    <ID c>
+  >
+>
